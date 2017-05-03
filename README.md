@@ -1,3 +1,4 @@
+```
            _____           _      _     _____   ____   ____           
           |  __ \         (_)    | |   |  __ \ / __ \ / __ \          
   ______  | |__) | __ ___  _  ___| |_  | |__) | |  | | |  | |  ______ 
@@ -6,6 +7,7 @@
           |_|   |_|  \___/| |\___|\__| |_|     \____/ \____/          
                          _/ |                                         
                         |__/       
+```
 # TP Héritage
 
 Vous allez devoir créer un programme permettant de gérer les salaires des employés d’une entreprise.
