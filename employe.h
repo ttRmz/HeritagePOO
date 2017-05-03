@@ -6,7 +6,7 @@
 
 class Employe
 {
-public:
+private:
 	Employe(std::string name);
 	void nom();
 	void prenom();

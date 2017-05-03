@@ -3,4 +3,14 @@
 
 #include <iostream>
 #include <string>
-#include <employe.h>
+#include <"Employe.h">
+
+class Commercial : private employe
+{
+	private:
+		Commercial(std::string prenom);
+		Commercial(std::string nom);
+		Commercial(std::string age);
+		Commercial(std::string salaire);
+
+}
