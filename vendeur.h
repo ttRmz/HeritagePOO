@@ -4,13 +4,12 @@
 #include <iostream>
 #include <string>
 #include <"Employe.h">
+#define DEF_VENDEUR_SALAIRE 2500
+#define DEF_VENDEUR_PRIME 100
 
-class Vendeur : private employe
+class Vendeur : public Commercial
 {
-	private:
-		Vendeur(std::string prenom);
-		Vendeur(std::string nom);
-		Vendeur(std::string age);
-		Vendeur(std::string salaire);
-
+public :
+	Vendeur();
+	int calcul(int salaire, int nbprime);
 }

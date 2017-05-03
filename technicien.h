@@ -4,13 +4,10 @@
 #include <iostream>
 #include <string>
 #include <"Employe.h">
+#define DEF_TECHNICIEN_SALAIRE 2000
 
 class Technicien : private employe
 {
-	private:
-		Technicien(std::string prenom);
-		Technicien(std::string nom);
-		Technicien(std::string age);
-		Technicien(std::string salaire);
+	public : Technicien();
 
 }

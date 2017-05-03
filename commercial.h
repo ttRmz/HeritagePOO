@@ -5,12 +5,11 @@
 #include <string>
 #include <"Employe.h">
 
-class Commercial : private employe
+class Commercial : private Employe
 {
-	private:
-		Commercial(std::string prenom);
-		Commercial(std::string nom);
-		Commercial(std::string age);
-		Commercial(std::string salaire);
+	public:
+	int getprime();
 
+	private : 
+	int m_prime;
 }

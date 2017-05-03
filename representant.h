@@ -4,13 +4,15 @@
 #include <iostream>
 #include <string>
 #include <"Employe.h">
+#define DEF_REPRESENTANT_SALAIRE 2500
+#define DEF_REPRESENTANT_PRIME 250
 
-class Representant : private employe
+class Representant : public Commercial
 {
-	private:
-		Representant(std::string prenom);
-		Representant(std::string nom);
-		Representant(std::string age);
-		Representant(std::string salaire);
+public : 
+	Representant();
+	int calcul(int salaire, int nbprime, int nbdeplacement);
+	int getdeplacement();
 
 }
+

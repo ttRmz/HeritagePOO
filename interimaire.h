@@ -5,12 +5,8 @@
 #include <string>
 #include <"Employe.h">
 
-class Interimaire : private employe
+class Interimaire : private Technicien
 {
-	private:
-		Interimaire(std::string prenom);
-		Interimaire(std::string nom);
-		Interimaire(std::string age);
-		Interimaire(std::string salaire);
-
+public : Interimaire();
+int calcul (int nbHeure);
 }
