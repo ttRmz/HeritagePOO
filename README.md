@@ -60,8 +60,7 @@ Le programme doit permettre de calculer et d’afficher pour un mois donné :
 Les salaires à afficher sont ceux du mois durant lequel :
 
 * Paul a eu 10 primes, Pierre en a eu 5, et Jacques une seule.
-* Rachel a eu 3 primes pour 10 déplacements, et Rémi 2 primes pour 8
-déplacements.
+* Rachel a eu 3 primes pour 10 déplacements, et Rémi 2 primes pour 8 déplacements.
 * Idris a travaillé 75 heures, Isaac et Irène ont travaillé 50 heures chacun, et Igor n’a pas travaillé ce mois-ci.
 
 ## Documents à rendre
