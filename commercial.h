@@ -3,13 +3,18 @@
 
 #include <iostream>
 #include <string>
-#include <"Employe.h">
+#include "Employe.h"
 
-class Commercial : private Employe
+class Commercial : public Employe
 {
-	public:
+public:
 	int getprime();
+	int getNbPrime();
+	void setNbPrime(int nbprime);
 
-	private : 
+protected: 
 	int m_prime;
-}
+	int m_nbPrime;
+};
+
+#endif

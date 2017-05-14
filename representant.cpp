@@ -6,8 +6,14 @@ using namespace std;
 		m_salaire = DEF_REPRESENTANT_SALAIRE;
 		m_prime = DEF_REPRESENTANT_PRIME;
 	}
-	int Representant::calcul(int salaire, int nbprime, int nbdeplacement)
+	int Representant::calcul()
 	{
-		return m_salaire+ (nbprime * m_prime ) + (nbdeplacement * 50);
+		return m_salaire + (m_nbPrime * m_prime ) + (m_nbDeplacement * 50);
 
+	}
+	int Representant::getDeplacement(){
+		return m_nbDeplacement;
+	}
+	void Representant::setDeplacement(int nbDeplacement){
+		m_nbDeplacement = nbDeplacement;
 	}

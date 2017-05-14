@@ -3,10 +3,18 @@
  
 #include <iostream>
 #include <string>
-#include <"Employe.h">
+#include "Employe.h"
+#include "Technicien.h"
 
-class Interimaire : private Technicien
+class Interimaire : public Technicien
 {
-public : Interimaire();
-int calcul (int nbHeure);
-}
+public: 
+    Interimaire();
+    int calcul ();
+    int getNbHeure();
+    void setNbHeure(int nbHeure);
+private:
+    int m_nbHeure;
+};
+
+#endif

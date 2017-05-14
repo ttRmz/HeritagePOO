@@ -6,8 +6,8 @@ using namespace std;
 		m_salaire = DEF_VENDEUR_SALAIRE;
 		m_prime = DEF_VENDEUR_PRIME;
 	}
-	int Vendeur::calcul(int salaire, int nbprime)
+	int Vendeur::calcul()
 	{
-		return m_salaire+ (nbprime * m_prime);
+		return m_salaire+(m_nbPrime * m_prime);
 
 	}

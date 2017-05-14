@@ -3,11 +3,15 @@
  
 #include <iostream>
 #include <string>
-#include <"Employe.h">
+#include "Employe.h"
 #define DEF_TECHNICIEN_SALAIRE 2000
 
-class Technicien : private employe
+class Technicien : public Employe
 {
-	public : Technicien();
+	public: 
+	Technicien();
+	int getsalaire();
 
-}
+};
+
+#endif

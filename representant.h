@@ -3,16 +3,20 @@
  
 #include <iostream>
 #include <string>
-#include <"Employe.h">
+#include "Commercial.h"
+#include "Employe.h"
 #define DEF_REPRESENTANT_SALAIRE 2500
 #define DEF_REPRESENTANT_PRIME 250
 
 class Representant : public Commercial
 {
-public : 
+public: 
 	Representant();
-	int calcul(int salaire, int nbprime, int nbdeplacement);
-	int getdeplacement();
+	int calcul();
+	int getDeplacement();
+	void setDeplacement(int nbDeplacement);
+protected:
+	int m_nbDeplacement;
+};
 
-}
-
+#endif
